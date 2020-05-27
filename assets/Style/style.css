@@ -7,7 +7,7 @@ body{
     display: center;
 }
 .fondo{
-    background-image: url("../img/fondo2.PNG");
+    background-image: url("../img/fondo2.png");
     background-repeat: no-repeat;
     background-position: center;
     opacity: 1;
