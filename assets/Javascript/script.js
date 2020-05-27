@@ -1,4 +1,4 @@
-//comentario prueba
+//comenta
 let izquierdos = [];
 izquierdos = [
     ['Productos de Consumo Personal.','Juguetes y sus accesorios.'],
