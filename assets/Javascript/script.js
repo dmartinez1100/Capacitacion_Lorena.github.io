@@ -1,3 +1,4 @@
+//comentario prueba
 let izquierdos = [];
 izquierdos = [
     ['Productos de Consumo Personal.','Juguetes y sus accesorios.'],
@@ -170,7 +171,7 @@ function new_qest(texto,enunciado,a,b,c,d,respuesta,imagen,link){
     if(texto.includes("youtube.com")){
         //console.log(texto)
         texto = '<iframe width="100%" height="500vw" src="'+texto+'"> </iframe>'
-        
+
     }
     code1 = '<div class="pregunta">'+'<div class="texto">'+texto+'</div>'+'<div '+'class = "enunciado"'+' >'+num+'. '+enunciado+'</div><div '+' id=mensaje'+num+''+' class="mensaje"></div><div class="'+clase_i+'">'+'<div class="respuestas">'
 
@@ -210,7 +211,7 @@ function preg_esp(enunciado){
     code1 = '<div id="pregunta-esp">'+'<div class = "enunciado"'+' >'+preguntas+'. '+enunciado+'</div><div '+' id=mensaje'+preguntas+''+' class="mensaje"></div>'
 
     code1+= '<div id="container">'
-    
+
     part_der = '<div id="derecha">'
     part_izq = '<div id="izquierda">'
     for(var i = 1;i<=5;i++){
@@ -276,7 +277,7 @@ function dragEnter(event) {
     //console.log(document.getElementById(event.target.id))
     document.getElementById(event.target.id).style.border = "3px dotted red";
     //console.log(document.getElementById("d5"))
-     
+
 }
 
 //draggable element leave a drag-box
